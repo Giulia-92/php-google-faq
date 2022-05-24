@@ -1,0 +1,11 @@
+nav{
+    position: fixed;
+}
+a{
+    color: dimgray;
+    text-decoration: none;
+}
+a:hover{ 
+color:rgb(40, 90, 198);
+text-decoration: underline rgb(40, 90, 198) 3px;
+}
