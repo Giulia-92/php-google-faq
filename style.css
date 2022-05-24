@@ -4,16 +4,23 @@
 .logo{
     height:100px;
 }
+.testologo{
+    color:dimgray;
+    font-family: 'Montserrat', sans-serif;
+    font-size:35px;
+}
 nav{
     position: fixed;
 }
-a{
+.nav-link{
     color:rgb(40, 90, 198);
     text-decoration: none;
+    margin-top:62px;
 }
-a:hover{ 
+.nav-link:hover{ 
+    
 text-decoration: underline rgb(40, 90, 198) 3px;
-
+color:rgb(40, 90, 198);
 }
 .container{
     margin-top:40px;
