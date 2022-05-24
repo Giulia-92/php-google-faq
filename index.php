@@ -26,10 +26,10 @@ $answer = [
    
         [ 'DOMANDA'=>"Perché il mio account è associato a un paese?",
           'RISPOSTA'=>"Il tuo account è associato a un paese (o territorio) nei Termini di servizio per poter stabilire due cose:
-            La società consociata Google che offre i servizi, tratta le tue informazioni ed è responsabile del rispetto delle leggi sulla privacy vigenti. Generalmente Google offre i propri servizi per i consumatori tramite una delle due società seguenti:
-          Google Ireland Limited, se gli utenti sono residenti nello Spazio economico europeo (paesi dell'Unione europea, oltre a Islanda, Liechtenstein e Norvegia) o in Svizzera.
-          Google LLC, con sede negli Stati Uniti, per il resto del mondo.
-          La versione dei termini che regola il nostro rapporto, che può variare in base alle leggi locali.
+           <ul><li> La società consociata Google che offre i servizi, tratta le tue informazioni ed è responsabile del rispetto delle leggi sulla privacy vigenti. Generalmente Google offre i propri servizi per i consumatori tramite una delle due società seguenti:
+         <ul><li> Google Ireland Limited, se gli utenti sono residenti nello Spazio economico europeo (paesi dell'Unione europea, oltre a Islanda, Liechtenstein e Norvegia) o in Svizzera.
+         <li> Google LLC, con sede negli Stati Uniti, per il resto del mondo.</ul>
+          <li>La versione dei termini che regola il nostro rapporto, che può variare in base alle leggi locali.
           Tieni presente che i servizi Google sono fondamentalmente gli stessi a prescindere dalla società consociata che li offre o dal paese a cui è associato il tuo account."
         ],
      [ 'DOMANDA'=>"Stabilire il paese associato al tuo account",
@@ -73,13 +73,13 @@ $answer = [
     <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Navbar</a>
+    <img class="logo" src="./google.png" alt="">
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <a class="nav-link active" aria-current="page" href="#">Introduzione</a>
+      <a class="nav-link" href="#">Introduzione</a>
         <a class="nav-link" href="#">Norme sulla privacy</a>
         <a class="nav-link" href="#">Termini di servizio</a>
         <a class="nav-link"href="#">Tecnologie</a>
